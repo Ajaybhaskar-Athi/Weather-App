@@ -1,39 +1,63 @@
-<p align="center">
-  <a href="https://angular.io/docs" target="blank"><img src="https://github.com/Vanessa-Bertoldo/Sky_Sight/blob/master/src/assets/angular.png" width="320" alt="Hibernate Logo" /></a>
-</p>
+# Weather Application 🌤️
 
-# SkySight
+A simple weather application built with **Angular**, utilizing the **OpenWeatherMap API** to fetch real-time weather data. The app includes multiple pages for displaying current weather, detailed weather information, and general information about the application.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+## Features ✨
+- **Search Functionality**: Users can search for weather details by entering a location.
+- **Real-Time Weather Data**: Fetches and displays temperature, humidity, wind speed, and more.
+- **Multi-Page UI**: Includes a **Main Page**, **Weather Details Page**, **About Us Page**, and **Contact Us Page**.
+- **Responsive UI**: Designed with **ShadCN** and **Tailwind CSS** for a modern and user-friendly experience.
 
-## Development server
+## Technologies Used 🛠️
+- **Angular**
+- **OpenWeatherMap API**
+- **ShadCN** (for UI components)
+- **Tailwind CSS**
+- **TypeScript**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation & Setup ⚙️
 
-## Code scaffolding
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Ajaybhaskar-Athi/Weather-App.git
+   cd Weather-App
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/) and add it to your environment settings.
+4. Start the development server:
+   ```sh
+   ng serve
+   ```
+5. Open your browser and go to `http://localhost:4200/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## API Integration 🌎
+This application fetches weather data using the OpenWeatherMap API. The displayed information includes:
+- **Temperature** (Current, Min, Max)
+- **Humidity**
+- **Wind Speed**
 
-## Build
+## Project Structure 📂
+```
+Weather-App/
+│-- src/
+│   ├── app/
+│   │   ├── components/       # Reusable components
+│   │   ├── pages/            # Application pages
+│   │   ├── services/         # API handling
+│   │   ├── app.module.ts     # Main module
+│   │   ├── app.component.ts  # Root component
+│-- assets/
+│-- angular.json
+│-- package.json
+│-- README.md
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributing 🤝
+Contributions are welcome! Feel free to fork the repository and submit a pull request with improvements.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## About the project
-The project is a web app that aims to display climate information for a given place
-
-### Interface
-<p align="center">
-  <a href="https://github.com/Vanessa-Bertoldo/Sky_Sight/" target="blank"><img src="https://github.com/Vanessa-Bertoldo/Sky_Sight/blob/master/src/assets/app.jpeg" width="600" alt="Hibernate Logo" /></a>
-</p>
+---
+🚀 Built with ❤️ by **Ajay Bhaskar**
